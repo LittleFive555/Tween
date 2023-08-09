@@ -21,10 +21,18 @@ namespace EasyTween
             _easeFunction = EaseFunctions.GetEaseFunc(_easeType);
         }
 
-        public void SetEase(Ease ease)
+        /// <summary>
+        /// 设置动画曲线，只有在开始播放前设置才生效
+        /// </summary>
+        /// <param name="ease"></param>
+        /// <returns></returns>
+        public Vector3Tweener SetEase(Ease ease)
         {
+            if (IsPlaying)
+                return this;
             _easeType = ease;
             _easeFunction = EaseFunctions.GetEaseFunc(ease);
+            return this;
         }
 
         public override void Play()
