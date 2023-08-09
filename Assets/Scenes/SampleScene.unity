@@ -588,12 +588,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoMove: 1
   TargetPosition: {x: 5, y: 2, z: 0}
-  DoMoveSeconds: 3
+  DoMoveSeconds: 5
   PositionEaseType: 3
+  KillMoveOnTime: 0
+  KillMoveDelaySeconds: 0
   DoScale: 1
   TargetScale: {x: 3, y: 3, z: 1}
   DoScaleSeconds: 5
   ScaleEaseType: 6
+  KillScaleOnTime: 1
+  KillScaleDelaySeconds: 3
 --- !u!65 &1756396425
 BoxCollider:
   m_ObjectHideFlags: 0
