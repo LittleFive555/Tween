@@ -1,5 +1,5 @@
 using UnityEngine;
-using Tween;
+using EasyTween;
 
 public class Test : MonoBehaviour
 {

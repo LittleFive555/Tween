@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tween
+namespace EasyTween
 {
     public class TweenComponent : MonoBehaviour
     {

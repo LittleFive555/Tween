@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Tween
+namespace EasyTween
 {
     public delegate T DoGetter<out T>();
     public delegate void DOSetter<in T>(T newValue);

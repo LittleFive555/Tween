@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Tween
+namespace EasyTween
 {
     public enum Ease
     {
